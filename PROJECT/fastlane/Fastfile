@@ -1,0 +1,76 @@
+# Define the minimal Fastlane version
+fastlane_version "1.81.0"
+
+# Use the iOS platform as default
+default_platform :ios
+
+# Define what to do for the iOS platform
+platform :ios do
+
+  # Run this before doing anything else
+  before_all do
+    prepare_build
+  end
+
+  #本地打包
+  lane :local do
+
+    #Build
+    legacy_build_app(
+      #项目名称
+      scheme: "LwCalendar",
+      #配置
+      configuration: "Release",
+      #证书配置
+      #输出路径
+      output_directory: "./build/",
+    )
+  end
+
+  #服务器打包配置
+  lane :service do
+
+   #Build
+    legacy_build_app(
+      #项目名称
+      scheme: "LwCalendar",
+      #配置
+      configuration: "Release",
+      #输出路径
+      output_directory: "./build/",
+    )
+  end
+
+  private_lane :prepare_build do 
+  	#清理缓存
+  	clear_derived_data
+  	#配置xcode版本
+  	# xcode_select
+  	sh 'bundle exec pod install'
+  end
+
+  #编译app
+  private_lane :legacy_build_app do |options|
+
+    prepare_build
+    output_directory = options[:output_directory]+Time.now.strftime("%Y-%m-%d_%H-%M-%S")
+    ipaName = options[:scheme]
+
+    # Build the app
+    gym(
+      workspace: options[:workspace],
+      scheme: options[:scheme],
+      configuration: options[:configuration],
+      codesigning_identity: options[:codesigning_identity],
+      provisioning_profile_path: options[:provisioning_profile_path],
+      output_directory: output_directory,
+      output_name: ipaName,
+      buildlog_path: output_directory,
+      include_symbols: true,
+      clean: true,
+      silent: false,
+      use_legacy_build_api: true,
+    )
+  end
+
+end
