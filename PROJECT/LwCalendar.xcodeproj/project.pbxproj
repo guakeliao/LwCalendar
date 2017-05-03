@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66AC2A7F1EB9BE6F0002F445 /* SKCalendarManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AC2A6E1EB9BE6F0002F445 /* SKCalendarManage.m */; };
+		66AC2A801EB9BE6F0002F445 /* SKCalendarAnimationManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AC2A711EB9BE6F0002F445 /* SKCalendarAnimationManage.m */; };
+		66AC2A821EB9BE6F0002F445 /* SKDateSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AC2A771EB9BE6F0002F445 /* SKDateSecurity.m */; };
+		66AC2A831EB9BE6F0002F445 /* SKCalendarCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AC2A7A1EB9BE6F0002F445 /* SKCalendarCollectionViewCell.m */; };
+		66AC2A841EB9BE6F0002F445 /* SKCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AC2A7C1EB9BE6F0002F445 /* SKCalendarView.m */; };
+		66AC2A851EB9BE6F0002F445 /* SKWeekCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66AC2A7E1EB9BE6F0002F445 /* SKWeekCollectionViewCell.m */; };
 		AB6EF4B01E6557C30086DD73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6EF4AF1E6557C30086DD73 /* main.m */; };
 		AB6EF4B31E6557C30086DD73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6EF4B21E6557C30086DD73 /* AppDelegate.m */; };
 		AB6EF4BB1E6557C30086DD73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB6EF4BA1E6557C30086DD73 /* Assets.xcassets */; };
@@ -23,6 +29,19 @@
 /* Begin PBXFileReference section */
 		23DAF113275865A2996BF9AF /* Pods-LwCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LwCalendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-LwCalendar/Pods-LwCalendar.release.xcconfig"; sourceTree = "<group>"; };
 		3D8A3EC833B4D3E584FF583C /* Pods-LwCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LwCalendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LwCalendar/Pods-LwCalendar.debug.xcconfig"; sourceTree = "<group>"; };
+		66AC2A6D1EB9BE6F0002F445 /* SKCalendarManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCalendarManage.h; sourceTree = "<group>"; };
+		66AC2A6E1EB9BE6F0002F445 /* SKCalendarManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCalendarManage.m; sourceTree = "<group>"; };
+		66AC2A701EB9BE6F0002F445 /* SKCalendarAnimationManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCalendarAnimationManage.h; sourceTree = "<group>"; };
+		66AC2A711EB9BE6F0002F445 /* SKCalendarAnimationManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCalendarAnimationManage.m; sourceTree = "<group>"; };
+		66AC2A751EB9BE6F0002F445 /* SKConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKConstant.h; sourceTree = "<group>"; };
+		66AC2A761EB9BE6F0002F445 /* SKDateSecurity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKDateSecurity.h; sourceTree = "<group>"; };
+		66AC2A771EB9BE6F0002F445 /* SKDateSecurity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKDateSecurity.m; sourceTree = "<group>"; };
+		66AC2A791EB9BE6F0002F445 /* SKCalendarCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCalendarCollectionViewCell.h; sourceTree = "<group>"; };
+		66AC2A7A1EB9BE6F0002F445 /* SKCalendarCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCalendarCollectionViewCell.m; sourceTree = "<group>"; };
+		66AC2A7B1EB9BE6F0002F445 /* SKCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCalendarView.h; sourceTree = "<group>"; };
+		66AC2A7C1EB9BE6F0002F445 /* SKCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCalendarView.m; sourceTree = "<group>"; };
+		66AC2A7D1EB9BE6F0002F445 /* SKWeekCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKWeekCollectionViewCell.h; sourceTree = "<group>"; };
+		66AC2A7E1EB9BE6F0002F445 /* SKWeekCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKWeekCollectionViewCell.m; sourceTree = "<group>"; };
 		6826BF5ACC0685D0A0A53D18 /* Pods_LwCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LwCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6EF4AB1E6557C30086DD73 /* LwCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LwCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB6EF4AF1E6557C30086DD73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -55,6 +74,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66AC2A6B1EB9BE6F0002F445 /* SKCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				66AC2A6C1EB9BE6F0002F445 /* Algorithm */,
+				66AC2A6F1EB9BE6F0002F445 /* Animation */,
+				66AC2A741EB9BE6F0002F445 /* Tool */,
+				66AC2A781EB9BE6F0002F445 /* View */,
+			);
+			path = SKCalendarView;
+			sourceTree = "<group>";
+		};
+		66AC2A6C1EB9BE6F0002F445 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				66AC2A6D1EB9BE6F0002F445 /* SKCalendarManage.h */,
+				66AC2A6E1EB9BE6F0002F445 /* SKCalendarManage.m */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		66AC2A6F1EB9BE6F0002F445 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				66AC2A701EB9BE6F0002F445 /* SKCalendarAnimationManage.h */,
+				66AC2A711EB9BE6F0002F445 /* SKCalendarAnimationManage.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		66AC2A741EB9BE6F0002F445 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				66AC2A751EB9BE6F0002F445 /* SKConstant.h */,
+				66AC2A761EB9BE6F0002F445 /* SKDateSecurity.h */,
+				66AC2A771EB9BE6F0002F445 /* SKDateSecurity.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		66AC2A781EB9BE6F0002F445 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				66AC2A791EB9BE6F0002F445 /* SKCalendarCollectionViewCell.h */,
+				66AC2A7A1EB9BE6F0002F445 /* SKCalendarCollectionViewCell.m */,
+				66AC2A7B1EB9BE6F0002F445 /* SKCalendarView.h */,
+				66AC2A7C1EB9BE6F0002F445 /* SKCalendarView.m */,
+				66AC2A7D1EB9BE6F0002F445 /* SKWeekCollectionViewCell.h */,
+				66AC2A7E1EB9BE6F0002F445 /* SKWeekCollectionViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		846EA23A5C77B0CE9FC6D1C5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +281,7 @@
 		AB6EF4F31E6579A60086DD73 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				66AC2A6B1EB9BE6F0002F445 /* SKCalendarView */,
 			);
 			path = Vendors;
 			sourceTree = "<group>";
@@ -378,8 +450,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66AC2A841EB9BE6F0002F445 /* SKCalendarView.m in Sources */,
+				66AC2A831EB9BE6F0002F445 /* SKCalendarCollectionViewCell.m in Sources */,
+				66AC2A7F1EB9BE6F0002F445 /* SKCalendarManage.m in Sources */,
 				AB6EF4B31E6557C30086DD73 /* AppDelegate.m in Sources */,
+				66AC2A851EB9BE6F0002F445 /* SKWeekCollectionViewCell.m in Sources */,
+				66AC2A821EB9BE6F0002F445 /* SKDateSecurity.m in Sources */,
 				AB93E80D1E669D0500A0D426 /* LwCalendarConstants.m in Sources */,
+				66AC2A801EB9BE6F0002F445 /* SKCalendarAnimationManage.m in Sources */,
 				AB6EF4B01E6557C30086DD73 /* main.m in Sources */,
 				AB93E8141E66A3B300A0D426 /* LwMainViewController.m in Sources */,
 			);
